@@ -24,3 +24,4 @@ dist/
 # Compiled CSS
 style.css
 style.min.css
+style.css.map
