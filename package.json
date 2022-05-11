@@ -1,0 +1,24 @@
+{
+  "name": "stretch-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass -r --output-style compressed scss/style.scss > style.min.css",
+    "watch": "npm run build && npm run build --w -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsaputo1/stretch-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsaputo1/stretch-app/issues"
+  },
+  "homepage": "https://github.com/jsaputo1/stretch-app#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
