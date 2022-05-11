@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jsaputo1/stretch-app#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "node-sass": "^7.0.1"
   }
 }
